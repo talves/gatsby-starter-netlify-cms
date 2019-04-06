@@ -1164,6 +1164,18 @@
   resolved "https://registry.yarnpkg.com/@stefanprobst/lokijs/-/lokijs-1.5.6-b.tgz#6a36a86dbe132e702e6b15ffd3ce4139aebfe942"
   integrity sha512-MNodHp46og+Sdde/LCxTLrxcD5Dimu21R/Fer2raXMG1XtHSV2+vZnkIV87OPAxuf2NiDj1W5hN7Q2MYUfQQ8w==
 
+"@talves/gatsby-plugin-netlify-cms@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@talves/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-2.3.4.tgz#8d0dd02e61c4da1fe06708bf286d6ee57d39de0f"
+  integrity sha512-gbklqd72zurPEuoZTeVn/bjhyPPt6WoRhqeBfyFtmHaa0ghuyN4kr1fxxc18RPs0qjs6yJGPZAb2kaNEpbQJjw==
+  dependencies:
+    "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
+    html-webpack-exclude-assets-plugin "^0.0.7"
+    html-webpack-plugin "^3.2.0"
+    lodash "^4.17.11"
+    mini-css-extract-plugin "^0.4.1"
+    netlify-identity-widget "^1.4.11"
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -5627,19 +5639,6 @@ gatsby-link@^2.0.16:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-netlify-cms@^3.0.15:
-  version "3.0.17"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-3.0.17.tgz#fd06a9cb061800a6519cd94b3647f6f058de5102"
-  integrity sha512-M63gKFa9/ARvpl8Uh3GrT8FSkOhm6MoQBFUGCDb4ogUWMKHm98Ki4Re2XsV19Z87y5uaDuKxQfo5geZjwt7uyA==
-  dependencies:
-    "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
-    html-webpack-exclude-assets-plugin "^0.0.7"
-    html-webpack-plugin "^3.2.0"
-    lodash "^4.17.10"
-    mini-css-extract-plugin "^0.4.1"
-    netlify-identity-widget "^1.4.11"
-    webpack "^4.16.0"
-
 gatsby-plugin-netlify@^2.0.6:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.13.tgz#8cd3bfed759c514548338b1def8321a78c7d77f4"
@@ -7734,11 +7733,6 @@ jpeg-js@^0.2.0:
   resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.2.0.tgz#53e448ec9d263e683266467e9442d2c5a2ef5482"
   integrity sha1-U+RI7J0mPmgyZkZ+lELSxaLvVII=
 
-jquery@>=1.10.2:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
-
 js-base64@^2.1.8, js-base64@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
@@ -9050,19 +9044,6 @@ netlify-cms-lib-util@^2.3.1:
     js-sha256 "^0.9.0"
     localforage "^1.7.3"
 
-netlify-cms-media-library-cloudinary@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/netlify-cms-media-library-cloudinary/-/netlify-cms-media-library-cloudinary-1.3.1.tgz#faff406acac8d1d98978715cd0815101c9a46c87"
-  integrity sha512-07SQhOp0AIsOnsuv2h9NCRhR4gtgwgOVWvj73A0x433d2GYLm4JQuksniC8Wh+D3UJuwrI+qM9epFps88kTJSQ==
-
-netlify-cms-media-library-uploadcare@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/netlify-cms-media-library-uploadcare/-/netlify-cms-media-library-uploadcare-0.5.1.tgz#1c36ab4c7242631bb0fe384e2ae8deb409b46e2b"
-  integrity sha512-e0fEfYCP/uSnHww/owmqy3fsZxu5EDEadg1bR45m9Q7pk7CHxbiOStcjwgNnKrMuXwteCnx3xrb48kn+e6ePuA==
-  dependencies:
-    uploadcare-widget "^3.7.0"
-    uploadcare-widget-tab-effects "^1.4.0"
-
 netlify-cms-ui-default@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/netlify-cms-ui-default/-/netlify-cms-ui-default-2.6.1.tgz#5d45671ef67e8b35061d7ea47c4a8964da07e61a"
@@ -9174,17 +9155,6 @@ netlify-cms-widget-text@^2.2.1:
   integrity sha512-NHVsupB2JcQjTLz7MywQOZV90JwA2e2ZVlZzfHriKaCXKC7yi0fXpm+cjsH09rENLHNk0DfQERYKNXwEKb56KA==
   dependencies:
     react-textarea-autosize "^7.1.0"
-
-netlify-cms@^2.6.1:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-2.9.0.tgz#8a7a372223638bf5cf93ff44b1c93bc72e4d6c4d"
-  integrity sha512-Q/+aAkXLTjjMlGGW5u9a6zPmJPdYje3W12dky3qRrvYU8MG2+2ZxI9aEGTlTUXCdEmwyvvQX1xcR3PXycSaTpQ==
-  dependencies:
-    netlify-cms-app "^2.9.0"
-    netlify-cms-media-library-cloudinary "^1.3.1"
-    netlify-cms-media-library-uploadcare "^0.5.1"
-    react "^16.8.4"
-    react-dom "^16.8.4"
 
 netlify-identity-widget@^1.4.11:
   version "1.5.2"
@@ -14022,18 +13992,6 @@ update-notifier@^2.3.0:
     semver-diff "^2.0.0"
     xdg-basedir "^3.0.0"
 
-uploadcare-widget-tab-effects@^1.4.0:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/uploadcare-widget-tab-effects/-/uploadcare-widget-tab-effects-1.4.4.tgz#1add3b763821a267961942820938991c626e3171"
-  integrity sha512-yGwe7yJ5ByUiZ7psua9oMYiY2n7CJvN+Hq69bYpyrQ2JuF5Rb1bqzPsqnhEQPzFKNgl3gJjWktpz2/yNCCT+Sw==
-
-uploadcare-widget@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/uploadcare-widget/-/uploadcare-widget-3.7.0.tgz#d337c2f9b03f0a95a14a44a369feda9a8a29b622"
-  integrity sha512-Ti0gbnLr8dcHAMGXG8F+EqKXKjl41iDiM/sAiNJqz4+DwKmlkd3HB+MNGxRfDSmzVE7R+Yt6O/kYH3lyEyTW3Q==
-  dependencies:
-    jquery ">=1.10.2"
-
 upper-case@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
@@ -14386,7 +14344,7 @@ webpack-stats-plugin@^0.1.5:
   resolved "https://registry.yarnpkg.com/webpack-stats-plugin/-/webpack-stats-plugin-0.1.5.tgz#29e5f12ebfd53158d31d656a113ac1f7b86179d9"
   integrity sha1-KeXxLr/VMVjTHWVqETrB97hhedk=
 
-webpack@^4.16.0, webpack@^4.17.1:
+webpack@^4.17.1:
   version "4.29.6"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.29.6.tgz#66bf0ec8beee4d469f8b598d3988ff9d8d90e955"
   integrity sha512-MwBwpiE1BQpMDkbnUUaW6K8RFZjljJHArC6tWQJoFm0oQtfoSebtg4Y7/QHnJ/SddtjYLHaKGX64CFjG5rehJw==

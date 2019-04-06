@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: talves/gatsby-starter-netlify-cms
+  branch: netlify-cms-next
 
 media_folder: static/img
 public_folder: /img
